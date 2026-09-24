@@ -68,14 +68,13 @@ Ejemplos de ejecuciones son las siguientes:
     ¡Tortuga B ganó!
     ```
 - La meta está en la posición 5 y hay un 50% de probabilidad de resbalón.
-  
-    ``python
+    ```python
     >>tortuga_con_sorpresas(5, 0.5)
     Tortuga A está en 2, Tortuga B está en 1
     Tortuga A está en 3, Tortuga B está en 2
     Tortuga A está en 5, Tortuga B está en 4
     ¡Tortuga A ganó!
-
+    ```
 - La meta está en la posición 3 y hay un 30% de probabilidad de resbalón.
     ```python
     >>tortuga_con_sorpresas(3, 0.3)
