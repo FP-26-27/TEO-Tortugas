@@ -14,7 +14,7 @@ Reglas:
 Instrucciones:
 
 - Usa la estructura `while` para hacer que las tortugas avancen mientras ninguna ha alcanzado la meta.
-- Usa la función `random.randint()` para generar de forma aleatoria el número de pasos que avanzan.
+- Usa la función `random.randint()` para generar de forma aleatoria el número de pasos que avanzan. Por ejemplo, `random.randint(1,3)` genera un número aleatorio entre 1 y 3, ambos inclusive.
 - Al finalizar el bucle, indica qué tortuga ganó o si fue un empate.
 
 Ejemplos de ejecuciones son las siguientes:
@@ -51,8 +51,8 @@ Implementa una segunda versión de la simulación llamada `tortuga_con_sorpresas
 
 Instrucciones:
 
-- Probabilidad de resbalón:  Para implementar esto genere un número entre 0 y 1. Por ejemplo, si la probabilidad de resbalón es del 5% y el número aleatorio que ha generado número es menor que 0.05, significa que la tortuga ha resbalado.
-- El número de pasos que retrocede la tortuga también debe ser aleatorio.
+- Probabilidad de resbalón:  Para implementar esto genere un número entre 0 y 1. Por ejemplo, si la probabilidad de resbalón es del 5% y el número aleatorio que ha generado número es menor que 0.05, significa que la tortuga ha resbalado. Usa `random.random()`para generar un número aleatorio entre 0 y 1.
+- El número de pasos que retrocede la tortuga también debe ser aleatorio. 
 - Las tortugas no pueden retroceder a posiciones negativas. Use la función`max(0, posicion)`, que devolverá 0 si posicion tiene un valor negativo, en otro caso devolverá posición, ya que max devuelve el máximo de dos números.
 
 
